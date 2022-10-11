@@ -19,6 +19,7 @@ const Project = () => {
           picture={project.picture}
           description={project.description}
           link={project.link}
+          isDisable={project.isDisable}
         />
       )}
     </div>
