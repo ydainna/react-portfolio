@@ -1,0 +1,12 @@
+:root {
+  --textColor: #750ff7;
+  --backgroundColor: pink;
+  --titletextColor: red;
+  --primaryColor: white;
+  --body-color: white;
+  --button-text-color: #ffffff;
+  --url-color: #750ff7;
+  --background-button-color: #750ff7;
+  --borderColor: #e6ecf8;
+  --shadowbox: 0 5px 5px 0 rgba(233, 240, 243, 0.5);
+}

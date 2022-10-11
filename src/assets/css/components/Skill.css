@@ -1,0 +1,55 @@
+@import './../variable.css';
+/*skills component*/
+.skills {
+  margin-top: -30px;
+  border-radius: 12px;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.skill h2 {
+  color: var(--titletextColor);
+}
+
+.column {
+  background-color: var(--primaryColor);
+  padding: 60px 35px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: var(--shadowbox);
+  border-left: 1px solid var(--borderColor);
+  border-right: 1px solid var(--borderColor);
+  border-bottom: 1px solid var(--borderColor);
+
+}
+
+.column:first-child {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.column:last-child {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .skills {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: -30px;
+    border-radius: 12px;
+    padding: 0 10%;
+  }
+
+  .skills .column {
+    width: 90%;
+  }
+}

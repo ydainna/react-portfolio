@@ -1,0 +1,39 @@
+@import './../variable.css';
+.box {
+  width: auto;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 6px;
+  border: 1px solid var(--borderColor);
+
+  background-color: var(--primaryColor);
+  box-shadow: var(--shadowbox)
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h2 {
+  color: var(--titletextColor);
+}
+
+@media screen and (min-width: 700px) {
+  /*projects*/
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects .contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
