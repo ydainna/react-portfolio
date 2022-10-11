@@ -5,10 +5,10 @@ const ProjectCardData = (props) => {
 
   return (
     <div className="project-data">
-        <div class="box">
+        <div className="box">
           <img src={props.picture} alt="logo-entreprise" />
           <p>{props.description}</p>
-          <a class={linkDisabled} href={props.link}>{props.link}</a>
+          <a className={linkDisabled} href={props.link}>{props.link}</a>
         </div>
     </div>
   );

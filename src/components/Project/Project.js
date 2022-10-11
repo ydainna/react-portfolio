@@ -8,14 +8,15 @@ const Project = () => {
   const [projects] = useState(ProjectCard);
 
   return (
-    <div class="projects">
-      <div class="heading">
+    <div className="projects">
+      <div className="heading">
         <h2>My Recent Work</h2>
         <p>Here are a few projects I've worked on recently. Want to see more? Email me.</p>
       </div>
-      <div class="contents">
+      <div className="contents">
       {projects.map((project) => 
         <ProjectCardData
+          key={project.link}
           picture={project.picture}
           description={project.description}
           link={project.link}

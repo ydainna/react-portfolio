@@ -6,11 +6,11 @@ import SkillBackData from "./SkillData/SkillBackData";
 
 const Skill = () => {
   return (
-    <div class="skills">
-      <div class="column">
+    <div className="skills">
+      <div className="column">
         <SkillBackData />
       </div>
-      <div class="column">
+      <div className="column">
         <SkillFrontData/>
       </div>
     </div>

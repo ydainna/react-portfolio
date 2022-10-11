@@ -8,23 +8,23 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main class="container">
-        <section class="introduction">
-            <h1>Hi, I'm <span class="name">David</span></h1>
+      <main className="container">
+        <section className="introduction">
+            <h1>Hi, I'm <span className="name">David</span></h1>
             <p> ceci est un texte... rien de plus normal</p>
-            <figure class="avatar">
+            <figure className="avatar">
               <img src="css/img/avatar/avatar.svg" alt="avatar"/>
             </figure>  
-          <figure class="desktop">
+          <figure className="desktop">
             <img src="css/img/logo/desktop.svg" alt="desktop" />
           </figure>
         </section>
 
-        <section class="presentation">
-          <div class="description pink-bg">
+        <section className="presentation">
+          <div className="description pink-bg">
             <h2>Hi, I’m <span id="name">David</span>. Nice to meet you.</h2>
             <p>Since the beginning of my journey as a freelance developer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
-            <button class="btn">Let's make contact</button>
+            <button className="btn">Let's make contact</button>
           </div>
           <Skill />
         </section>

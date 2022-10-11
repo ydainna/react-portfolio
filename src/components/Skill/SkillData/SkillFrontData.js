@@ -7,13 +7,13 @@ const SkillFrontData = (props) => {
 
   return (
     <div className="skill-data">
-      <figure class="skill">
-        <img src="css/img/logo/frontend.svg" alt="frontend" class="logo"/>
+      <figure className="skill">
+        <img src="css/img/logo/frontend.svg" alt="frontend" className="logo"/>
         <h2>Front-end Developer</h2>
         <p>{skill[0].description}</p>
-        <h2 class="pink-text">Languages I speak:</h2>
+        <h2 className="pink-text">Languages I speak:</h2>
         <p>{skill[0].language}</p>
-        <h2 class="pink-text">Dev Tools:</h2>
+        <h2 className="pink-text">Dev Tools:</h2>
         <ul id="front-dev-tools">
           <li>{skill[0].devTool}</li>
         </ul>
