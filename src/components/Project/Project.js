@@ -16,7 +16,7 @@ const Project = () => {
       <div className="contents">
       {projects.map((project) => 
         <ProjectCardData
-          key={project.link}
+          key={project.id}
           picture={project.picture}
           description={project.description}
           link={project.link}
